@@ -1,0 +1,9 @@
+body {
+    background: #FDFC47;
+    background: -webkit-linear-gradient(to right, #24FE41, #FDFC47); 
+    background: linear-gradient(to right, #24FE41, #FDFC47);
+}
+
+h1, p, h2, h3, h4 {
+    color: white;
+}
