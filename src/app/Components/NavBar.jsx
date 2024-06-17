@@ -5,7 +5,7 @@ import React from 'react'
 function NavBar() {
   return (
     <>
-    <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav className="navbar navbar-expand-lg bg-white" data-bs-theme="white">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">Santisimo Sacramento</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,10 +38,6 @@ function NavBar() {
           </div>
         </li>
       </ul>
-      <form className="d-flex">
-        <input className="form-control me-sm-2" type="search" placeholder="Search"></input>
-        <button className="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-      </form>
     </div>
   </div>
 </nav>
