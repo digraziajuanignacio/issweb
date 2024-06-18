@@ -1,6 +1,8 @@
 import React from 'react';
 import './CSS/home.css';
 import 'animate.css';
+import FloatingButton from './Components/FloatingButton';
+import Carrousel from './Components/Carrousel';
 
 
 
@@ -17,6 +19,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
+    <Carrousel/>
+    <FloatingButton/>
 
 
 </>
