@@ -24,20 +24,7 @@
     margin-top: 3%;
 }
 
-.footer-nav {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    padding-top: 20px;
-    text-align: center;
-    background: #0f0c29; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2c2c47, #38346b, #14112d); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2c2c47, #38346b, #14112d);
-    @media screen and (max-width: 768px) {
-        padding-right: 0px !important;
-        padding-top: 6% !important;
-    }
-}
+
 
 #carouselExampleFade {
     position: relative;
