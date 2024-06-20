@@ -7,7 +7,7 @@ function NavBar() {
     <>
     <nav className="navbar navbar-expand-lg bg-white" data-bs-theme="white">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">Santisimo Sacramento</a>
+    <a className="navbar-brand" href="/">Santisimo Sacramento</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -22,20 +22,16 @@ function NavBar() {
           <a className="nav-link" href="/quienes-somos">Quienes Somos</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Pricing</a>
+          <a className="nav-link" href="/actividades">Actividades</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">About</a>
+          <a className="nav-link" href="/inicial-primaria">Inicial Primaria</a>
         </li>
-        <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-          <div className="dropdown-menu">
-            <a className="dropdown-item" href="#">Action</a>
-            <a className="dropdown-item" href="#">Another action</a>
-            <a className="dropdown-item" href="#">Something else here</a>
-            <div className="dropdown-divider"></div>
-            <a className="dropdown-item" href="#">Separated link</a>
-          </div>
+        <li className="nav-item">
+          <a className="nav-link" href="/secundaria">Secundaria</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="/inscripciones-24">Inscripciones 2024</a>
         </li>
       </ul>
     </div>
