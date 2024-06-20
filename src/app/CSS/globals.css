@@ -58,3 +58,17 @@ h1, p, h2, h3, h4 {
 footer {
     flex-shrink: 0;
   }
+
+@media screen and (max-width: 768px) {
+    .footer-nav {
+      flex-direction: column;
+      justify-content: center; /* Distribuye el espacio entre los divs */
+      align-items: center; /* Cambia a disposición vertical en pantallas pequeñas */
+      padding-right: 0px !important;
+      padding-top: 6% !important;
+    }
+  
+    .footer-nav div {
+      padding: 10px 0; /* Ajusta el padding para disposición vertical */
+    }
+  }
