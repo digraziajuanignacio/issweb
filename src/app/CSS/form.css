@@ -1,0 +1,10 @@
+.form-container {
+    max-width: 650px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+label {
+    color: white;
+}

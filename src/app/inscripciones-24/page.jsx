@@ -1,11 +1,11 @@
 import React from 'react'
+import InscripcionesForm from '../Components/InscripcionesForm'
 
 function page() {
   return (
     <>
-    <h1>Pre-Inscripciones 2024</h1>
     <div className='main-content'>
-
+      <InscripcionesForm />
     </div>
     </>
   )
