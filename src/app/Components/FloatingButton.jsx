@@ -8,7 +8,7 @@ export default function FloatingActionButtons() {
   return (
     <Box sx={{ '& > :not(style)': { m: 1 } }}>
 
-      <Fab variant="extended" href="/quienes-somos">
+      <Fab variant="extended" href="/inscripciones-24">
         <NavigationIcon sx={{ mr: 1 }} />
         INSCRIPCIONES 2024
       </Fab>

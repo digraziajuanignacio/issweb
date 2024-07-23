@@ -1,74 +1,22 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 0;  
 }
 
 
-body {
-    background: #0f0c29;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+body { /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     flex-direction: column;
     min-height: 100vh;  
 }
 
 h1, p, h2, h3, h4 {
-    color: white;
-    font-family: "Segoe UI Mono",
-    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
-    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
-}
+
+  font-family: var('--font-inter')
+} 
 
 .main-content {
     flex: 1;
   }
 
-.footer-nav {
-    display: flex;
-    justify-content: space-around; /* Distribuye el espacio entre los divs */
-    align-items: flex-start; /* Alinea los divs verticalmente al centro */
-    width: 100%;
-    padding: 20px 0; /* Espaciado alrededor del footer */
-    text-align: center;
-    background: #0f0c29;
-    background: -webkit-linear-gradient(to right, #2c2c47, #38346b, #14112d);
-    background: linear-gradient(to right, #2c2c47, #38346b, #14112d);
-    color: white;
-    @media screen and (max-width: 768px) {
-        padding-right: 0px !important;
-        padding-top: 6% !important;
-    }
-}
-.footer-nav h2 {
-    margin: 0; /* Asegura que todos los h2 tengan el mismo margen */
-    padding-bottom: 10px; /* Opcional: Espacio debajo del h2 para consistencia */
-  }
-
-.footer-nav div {
-    flex: 1; /* Cada div toma el mismo espacio */
-    padding: 0 10px; /* Opcional: para añadir algo de espacio horizontal entre los divs */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-
-footer {
-    flex-shrink: 0;
-  }
-
-@media screen and (max-width: 768px) {
-    .footer-nav {
-      flex-direction: column;
-      justify-content: center; /* Distribuye el espacio entre los divs */
-      align-items: center; /* Cambia a disposición vertical en pantallas pequeñas */
-      padding-right: 0px !important;
-      padding-top: 6% !important;
-    }
-  
-    .footer-nav div {
-      padding: 10px 0; /* Ajusta el padding para disposición vertical */
-    }
-  }

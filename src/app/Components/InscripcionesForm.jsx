@@ -12,7 +12,7 @@ function InscripcionesForm() {
 
     <div className="mb-4">
         <label htmlFor="exampleFormControlTextarea1" className="form-label">Nombre y Apellido del Ingresante</label>
-        <input class="form-control" type="text" placeholder="Coloque Nombre y Apellido del Alumno a Inscribir" aria-label="Nombre y Apellido del Ingresante" maxLength="100"/>
+        <input className="form-control" type="text" placeholder="Coloque Nombre y Apellido del Alumno a Inscribir" aria-label="Nombre y Apellido del Ingresante" maxLength="100"/>
     </div>
 
     {/* <div className="mb-3">
@@ -29,12 +29,12 @@ function InscripcionesForm() {
 
     <div className="mb-4">
         <label htmlFor="exampleFormControlTextarea1" className="form-label">D.N.I</label>
-        <input class="form-control" type="text" placeholder="Coloque DNI sin puntuaciones, EJ: 12345678" aria-label="DNI, Solo Numeros" inputMode="numeric" pattern="\d*" title="Solo se permiten números" maxLength="8" onInput={(e) => {e.target.value = e.target.value.replace(/\D/g, '');}}/>
+        <input className="form-control" type="text" placeholder="Coloque DNI sin puntuaciones, EJ: 12345678" aria-label="DNI, Solo Numeros" inputMode="numeric" pattern="\d*" title="Solo se permiten números" maxLength="8" onInput={(e) => {e.target.value = e.target.value.replace(/\D/g, '');}}/>
     </div>
 
     <div className="mb-4">
         <label htmlFor="exampleFormControlTextarea1" className="form-label">D.N.I del Ingresante</label>
-        <input class="form-control" type="text" placeholder="Coloque DNI del Ingresante sin puntuaciones, EJ: 12345678" aria-label="DNI, Solo Numeros" inputMode="numeric" pattern="\d*" title="Solo se permiten números" maxLength="8" onInput={(e) => {e.target.value = e.target.value.replace(/\D/g, '');}}/>
+        <input className="form-control" type="text" placeholder="Coloque DNI del Ingresante sin puntuaciones, EJ: 12345678" aria-label="DNI, Solo Numeros" inputMode="numeric" pattern="\d*" title="Solo se permiten números" maxLength="8" onInput={(e) => {e.target.value = e.target.value.replace(/\D/g, '');}}/>
     </div>
 
     <div className="mb-4">
@@ -59,8 +59,8 @@ function InscripcionesForm() {
         </select>
     </div>
 
-    <div class="d-flex justify-content-center mb-4">
-        <button type="submit" class="btn btn-primary">Enviar</button>
+    <div className="d-flex justify-content-center mb-4">
+        <button type="submit" className="btn btn-primary">Enviar</button>
       </div>
 
     </div>

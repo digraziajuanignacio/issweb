@@ -1,6 +1,7 @@
 import React from 'react'
 import InscripcionesForm from '../Components/InscripcionesForm'
 
+
 function page() {
   return (
     <>

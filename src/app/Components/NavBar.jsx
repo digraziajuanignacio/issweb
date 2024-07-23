@@ -1,11 +1,11 @@
 import React from 'react'
-
+import '../CSS/navbar.css'
 
 
 function NavBar() {
   return (
     <>
-    <nav className="navbar navbar-expand-lg bg-white" data-bs-theme="white">
+    <nav className="navbar navbar-expand-lg navbar-yellow" data-bs-theme="white">
   <div className="container-fluid">
     <a className="navbar-brand" href="/">Santisimo Sacramento</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,28 +1,28 @@
+.header {
+    position: relative;
+    width: 100vw; /* 100% del ancho de la ventana */
+    height: 75vh; /* 75% del alto de la ventana */
+    overflow: hidden;
+    object-fit: cover;
 
-.prueba1 {
-    @media screen and (max-width: 768px) {
-        margin-top: 60px !important;
-    }
+}
+.image {
+    object-fit: cover;
 }
 
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar la legibilidad */
+    color: white;
+  }
 
-.prueba {
-    margin-top: 25px !important;
-    @media screen and (max-width: 768px) {
-        padding-top: 60px !important;
-    }
-}
-
-.info-header h1 {
-    text-align: center;
-    margin-top: 7%;
-    font-weight: bold;
-}
-
-.info-header h3 {
-    text-align: center;
-    margin-top: 3%;
-}
 
 
 
@@ -44,21 +44,5 @@
     min-height: 300px;
     object-fit: cover; 
 }
-.info-header {
-    width: 100%;
-    position: relative;
-    height: 750px;    
-    background: #aac080;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, rgba(121, 196, 137, 0.603), rgba(170, 182, 104, 0.603)) , url("/header.jpg");  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgba(162, 170, 114, 0.603), rgba(131, 168, 106, 0.603)) , url("/header.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-.wave {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
 
-}
 
