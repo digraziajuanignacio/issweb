@@ -1,7 +1,18 @@
+@keyframes appear {
+    from {
+      opacity: 0;
+      scale: 0.5;
+    }
+    to {
+      opacity: 1;
+      scale: 1;
+    }
+  }
+
 .header {
     position: relative;
     width: 100vw; /* 100% del ancho de la ventana */
-    height: 75vh; /* 75% del alto de la ventana */
+    height: 100vh; /* 75% del alto de la ventana */
     overflow: hidden;
     object-fit: cover;
 
@@ -19,11 +30,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar la legibilidad */
-    color: white;
+    background: rgba(0, 0, 0, 0.6);
+
+}
+.content-1 {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+    width: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #413f3f;
+    padding: 130px 0; /* Añadir padding para aumentar el tamaño vertical del separador */
   }
-
-
 
 
 #carouselExampleFade {
