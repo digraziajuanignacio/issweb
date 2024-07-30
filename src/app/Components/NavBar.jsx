@@ -14,12 +14,10 @@ function NavBar() {
     <div className="collapse navbar-collapse" id="navbarColor02">
       <ul className="navbar-nav me-auto">
         <li className="nav-item">
-          <a className="nav-link active" href="/">Home
-            <span className="visually-hidden">(current)</span>
-          </a>
+          <a className="nav-link" href="/">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/quienes-somos">Quienes Somos</a>
+          <a className="nav-link" href="/quienes-somos">Quienes somos</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/actividades">Actividades</a>

@@ -31,8 +31,26 @@
     align-items: center;
     justify-content: center;
     background: rgba(0, 0, 0, 0.6);
-
+    @media screen and (max-width: 768px) {
+      text-align: center;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    @media screen and (max-width: 1024px) {
+      text-align: center;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
 }
+
+.text-overlay h1 {
+  @media screen and (max-width: 768px) {
+    padding-bottom: 43px;
+    font-size: 35px;
+}
+}
+
+
 .content-1 {
     animation: appear linear;
     animation-timeline: view();
@@ -42,7 +60,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #413f3f;
+    background: #FFAA5A;
     padding: 130px 0; /* Añadir padding para aumentar el tamaño vertical del separador */
   }
 
