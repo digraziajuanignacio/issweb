@@ -56,21 +56,23 @@
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
     width: 100%;
-    margin-bottom: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #FFAA5A;
-    padding: 130px 0; /* Añadir padding para aumentar el tamaño vertical del separador */
+    background: #df3737;
+    padding: 130px 0; 
   }
 
 
 #carouselExampleFade {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 550px;
     margin-bottom: 40px;
-    margin-top: 40px;
+
 }
 
 #carouselExampleFade .carousel-inner {
@@ -79,9 +81,10 @@
 }
 
 #carouselExampleFade .carousel-item img {
-    height: 55vh;
-    min-height: 300px;
+    height: 60vh;
+    min-height: 10px;
     object-fit: cover; 
 }
+
 
 
