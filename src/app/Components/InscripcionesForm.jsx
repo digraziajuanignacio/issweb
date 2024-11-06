@@ -165,8 +165,8 @@ export default function ContactForm() {
 
           <div className="bg-slate-100 flex flex-col">
         {error &&
-          error.map((e) => (
-            <div class="alert alert-success" role="alert">
+          error.map((e, i) => (
+            <div key={i} class="alert alert-success" role="alert">
                 {e}
             </div>
           ))}
