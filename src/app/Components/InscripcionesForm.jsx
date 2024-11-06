@@ -11,9 +11,9 @@ export default function ContactForm() {
   const [solicitudVacante, setSolicitudVacante] = useState("");
   const [error, setError] = useState([]);
   const [success, setSuccess] = useState(false);
-  const apiUrl = process.env.API_URL
 
   const handleSubmit = async (e) => {
+    const apiUrl = process.env.API_URL;
     e.preventDefault();
 
     console.log("Full name: ", fullname);
