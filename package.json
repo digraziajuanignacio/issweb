@@ -17,6 +17,7 @@
     "bootstrap": "^5.3.3",
     "bootswatch": "^5.3.3",
     "boxicons": "^2.1.4",
+    "cors": "^2.8.5",
     "framer-motion": "^11.3.17",
     "mongodb": "^6.10.0",
     "mongoose": "^8.8.0",
