@@ -13,7 +13,7 @@ export default function ContactForm() {
   const [success, setSuccess] = useState(false);
 
   const handleSubmit = async (e) => {
-    const apiUrl = process.env.API_URL;
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL;
     e.preventDefault();
 
     console.log("Full name: ", fullname);
