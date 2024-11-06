@@ -11,6 +11,7 @@ export default function ContactForm() {
   const [solicitudVacante, setSolicitudVacante] = useState("");
   const [error, setError] = useState([]);
   const [success, setSuccess] = useState(false);
+  const apiUrl = process.env.API_URL
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -20,7 +21,7 @@ export default function ContactForm() {
     console.log("Dni Alumno: ", dniAlumno);
     console.log("Solicitud de Vacante: ", solicitudVacante);
 
-    const res = await fetch("api/form", {
+    const res = await fetch(`${apiUrl}/api/form`, {
       method: "POST",
       headers: {
         "Content-type": "application/json",
