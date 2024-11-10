@@ -2,22 +2,7 @@ import connectDB from "@/app/lib/mongodb";
 import Contact from "@/app/models/form";
 import { NextResponse } from "next/server";
 import mongoose from "mongoose";
-import Cors from "cors";
 
-const cors = Cors({
-  methods: ["GET", "POST"],
-  origin: "https://issweb.onrender.com",
-});
-function runMiddleware(req, res, fn) {
-  return new Promise((resolve, reject) => {
-    fn(req, res, (result) => {
-      if (result instanceof Error) {
-        return reject(result);
-      }
-      return resolve(result);
-    });
-  });
-}
 
 export async function POST(req) {
   const { fullname, email, dniAlumno, dniRespo, solicitudVacante } =
@@ -49,6 +34,7 @@ export async function POST(req) {
       return NextResponse.json({
         msg: ["La inscripción no se ha podido enviar correctamente."],
       });
+      
     }
   }
 }
