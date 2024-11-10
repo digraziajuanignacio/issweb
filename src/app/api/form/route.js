@@ -15,7 +15,7 @@ export async function POST(req) {
       email,
       dniAlumno,
       dniRespo,
-      solicitudVacante,
+      solicitudVacante
     });
 
     return NextResponse.json({
