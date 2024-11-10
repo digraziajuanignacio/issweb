@@ -20,7 +20,6 @@ function runMiddleware(req, res, fn) {
 }
 
 export async function POST(req) {
-  await runMiddleware(req, res, cors);
   const { fullname, email, dniAlumno, dniRespo, solicitudVacante } =
     await req.json();
 
